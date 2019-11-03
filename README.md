@@ -1,63 +1,19 @@
-# WHMCS Six Client Area Template Theme
+# WHMCS Module Shop Theme
 
-Welcome to the WHMCS “Six” template repository!  This repository is dedicated to providing version-by-version changes of the “Six” template as published in [WHMCS](https://downloads.whmcs.com/).  Sharing these changes through GitHub as a read-only repository enables you to quick inspect and import these changes for your custom theme.
+The WHMCS Module Shop Theme, extends the default `six` theme provided by WHMCS of which this is a fork.
 
-## Compatibility
+## Keeping up to date
 
-This theme is compatible with WHMCS 6.0 and later.
+This is a forked repository so please update the upstream:
 
-## Usage
+`git fetch upstream`
 
-You can utilise this repository to see the individual changes to this theme as distributed in WHMCS.
+Then merge any changes into the master branch:
 
-You can also use it to build your template in a way that can be controlled using Version Control, with the ability to pull in and auto-merge future changes.
+`git merge upstream/master master`
 
-You may fork this repository as described in the
-[GitHub Guide: Forking Projects](https://guides.github.com/activities/forking/) or
-[GitHub Bootcamp: Forking a Repo](https://help.github.com/articles/fork-a-repo/) articles.
+And finally merge any changes into our mainline branch `develop`
 
-### Command Line Usage
+`git merge master develop`
 
-The below is an example of how you might check this repository out locally into a custom folder and create a branch for building and tracking the changes for your custom theme:
-
-```sh
-# Navigate to your WHMCS templates directory
-cd ~/whmcs/templates/
-
-# Clone the Six template theme repo into your new template directory
-git clone git@github.com:WHMCS/templates-six.git my-template-name
-
-# Change directory to the template directory
-cd my-template-name
-
-# Create a custom branch to make and commit your customisations into
-git checkout -b my-template-name
-```
-
-When an update of WHMCS is published, the template changes will be propagated to this repository.  You can then pull those changes into your custom template branch as follows:
-
-```sh
-# Navigate to the template directory
-cd ~/whmcs/templates/my-template-name
-
-# Fetch the latest updates from the Six template theme repo
-git fetch origin
-
-# Ensure your custom template branch is checked out
-git checkout my-template-name
-
-# Merge changes from origin/master into your custom branch
-git merge origin/master
-```
-
-## Viewing the Template Changes
-
-A distinct tag is created for each published version of WHMCS.  You can easily view
-any span of changes you like using the [Github Comparison View](https://github.com/WHMCS/templates-six/compare).
-Simply, select a pair of version tags in that interface!
-
-## Useful Links
-
-* [Documentation](http://docs.whmcs.com/Customising_the_Six_Theme)
-* [Technical Support](http://www.whmcs.com/support)
-* [WHMCS Website](http://www.whmcs.com/)
+**Never** commit or merge changes into master, work on develop and tag releases from there.

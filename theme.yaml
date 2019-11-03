@@ -1,7 +1,7 @@
-# WHMCS Six Theme Configuration File
+# WHMCS Module Shop Theme Configuration File
 
-name: "WHMCS Six Theme"
-description: "The Default Theme for WHMCS Version 6.0"
-author: "WHMCS Limited"
+name: "WHMCS Module Shop Theme"
+description: "Modified six theme for WHMCS Module Shop"
+author: "WHMCS Module Shop"
 properties:
   serverSidePagination: false # Defines client side will handle pagination
