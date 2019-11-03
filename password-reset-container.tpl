@@ -1,6 +1,4 @@
 <div class="logincontainer">
-    {include file="$template/includes/pageheader.tpl" title=$LANG.pwreset}
-
     {if $loggedin && $innerTemplate}
         {include file="$template/includes/alert.tpl" type="error" msg=$LANG.noPasswordResetWhenLoggedIn textcenter=true}
     {else}

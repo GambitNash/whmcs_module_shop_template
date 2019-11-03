@@ -217,15 +217,22 @@
     <div id="page-banner">
         <section id="home-banner">
             <div class="container">
-                <h1>{$displayTitle}</h1>
-                {if $tagline}<h4>{$tagline}</h4>{/if}
+                {if $templatefile === 'login'}
+                    <h1>{$LANG.login}</h1>
+                    <h4>{$LANG.restrictedpage}</h4>
+                {else}
+                    <h1>{$displayTitle}</h1>
+                    {if $tagline}<h4>{$tagline}</h4>{/if}
+                {/if}
             </div>
         </section>
-        <div class="breadcrumbs-wrapper">
-            <div class="container">
-                {include file="$template/includes/breadcrumb.tpl"}
+        {if $breadcrumb}
+            <div class="breadcrumbs-wrapper">
+                <div class="container">
+                    {include file="$template/includes/breadcrumb.tpl"}
+                </div>
             </div>
-        </div>
+        {/if}
     </div>
 {/if}
 
