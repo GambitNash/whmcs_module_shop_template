@@ -114,6 +114,10 @@ ul.top-nav>li.primary-action>a.btn {
 	background-color: var(--menu-hover-color);
 }
 
+.navbar-main li.account {
+	background-color: var(--menu-bg-color);
+}
+
 .email-verification {
 	color: #f0ad4e;
 	background-color: #fcf8e3;
