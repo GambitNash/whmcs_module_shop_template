@@ -35,6 +35,7 @@
                     <p>UK Registered Company <strong>#07077994</strong>.</p>
                     <p>VAT Number <strong>GB 985 4678 52</strong>.</p>
                     <p>Copyright © {$date_year} <a href="{$systemsslurl}">{$companyname}</a>. All Rights Reserved.</p>
+                    <p><a href="{$systemsslurl}terms-and-conditions">Terms & Conditions</a> / <a href="{$systemsslurl}privacy-policy">Privacy Policy</a></p>
                 </div>
                 <div class="col-sm-8">
                     <div class="row">
