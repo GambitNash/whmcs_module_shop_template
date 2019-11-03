@@ -160,7 +160,8 @@
                     {include file="$template/includes/captcha.tpl"}
                 </form>
             {else}
-                <h2>{$LANG.doToday}</h2>
+                <h1>Not Just A Billing Platform!</h1>
+                <h4>We build highly successful modules with features such as SEO,<br/>CMS, Forums, Enhanced Support Features, Backup Utilities, and much more.</h4>
             {/if}
         </div>
     </section>
@@ -188,7 +189,7 @@
                             <a id="btnOrderHosting" href="cart.php">
                                 <i class="far fa-hdd"></i>
                                 <p>
-                                    {$LANG.orderhosting} <span>&raquo;</span>
+                                    Order Modules <span>&raquo;</span>
                                 </p>
                             </a>
                         </li>

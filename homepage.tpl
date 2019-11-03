@@ -1,3 +1,9 @@
+<div id="homepage-content" class="text-center">
+    <h1>We design, develop and deploy WHMCS modules/themes/services on thousands of WHMCS managed sites across the globe.</h1>
+    <h3>Our products and services are provided with the highest level of support, documentation, features, and are updated on rigorous schedules which means we are always adding new features and listening to user feedback.</h3>
+    <h3>Take a look at our current collection of WHMCS Modules and Services or contact us if you have a custom development project.</h3>
+</div>
+
 {if $twitterusername}
 
     <h2>{$LANG.twitterlatesttweets}</h2>

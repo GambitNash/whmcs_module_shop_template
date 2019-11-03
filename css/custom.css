@@ -11,10 +11,12 @@
 :root {
 	--unit-small: 5px;
 	--unit: 10px;
+	--body-color: #333333;
 	--primary-color: #2780e3;
 	--primary-text-color: #333333;
 	--dark-bg: #333333;
 	--light-grey: #f5f5f5;
+	--dark-grey: #666666;
 
 	--facebook-blue: #3b5998;
 	--twitter-blue: #4099ff;
@@ -28,6 +30,7 @@
 body, html {
 	height: initial;
 	min-height: 100%;
+	color: var(--body-color);
 }
 
 div, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, p, a{
@@ -186,6 +189,18 @@ section#home-banner {
 }
 .home-shortcuts li {
 	border-right: 1px solid var(--menu-bg-color);
+}
+.home-shortcuts li:hover a {
+	color: var(--light-grey);
+}
+.home-shortcuts li:hover span {
+	display: none;
+}
+
+#homepage-content h1,
+#homepage-content h3 {
+	line-height: 1.6;
+	margin-bottom: 30px;
 }
 
 /**
