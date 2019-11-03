@@ -68,6 +68,10 @@ a {
 	border-bottom-right-radius: 0;
 }
 
+.alert {
+	border-radius: 0;
+}
+
 div.header-lined h1 {
 	color: var(--primary-text-color);
 }
@@ -158,6 +162,10 @@ ul.top-nav>li.primary-action>a.btn {
  */
 #order-standard_cart .header-lined {
 	display: none;
+}
+
+#order-standard_cart .products .product {
+	border-radius: 0 !important;
 }
 
 
