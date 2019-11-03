@@ -220,6 +220,19 @@
                 {if $templatefile === 'login'}
                     <h1>{$LANG.login}</h1>
                     <h4>{$LANG.restrictedpage}</h4>
+                {elseif $templatefile === 'products'}
+                    <h1>{if $productGroup.headline}{$productGroup.headline}{else}{$productGroup.name}{/if}</h1>
+                    {if $productGroup.tagline}<h4>{$productGroup.tagline}</h4>{/if}
+                {elseif $templatefile === 'addons'}
+                    <h1>{$LANG.cartproductaddons}</h1>
+                {elseif $templatefile === 'configureproductdomain'}
+                    <h1>{$LANG.domaincheckerchoosedomain}</h1>
+                {elseif $templatefile === 'viewcart'}
+                    {if $smarty.get.a === 'checkout'}
+                        <h1>{$LANG.orderForm.checkout}</h1>
+                    {else}
+                        <h1>{$LANG.cartreviewcheckout}</h1>
+                    {/if}
                 {else}
                     <h1>{$displayTitle}</h1>
                     {if $tagline}<h4>{$tagline}</h4>{/if}

@@ -153,6 +153,13 @@ ul.top-nav>li.primary-action>a.btn {
 	padding: 8px 0;
 }
 
+/**
+ * Cart
+ */
+#order-standard_cart .header-lined {
+	display: none;
+}
+
 
 /**
  * Homepage
