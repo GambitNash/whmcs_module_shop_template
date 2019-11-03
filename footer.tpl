@@ -16,9 +16,10 @@
             <div class="row">
                 <div class="col-sm-4 about">
                     <h4>About Us</h4>
+                    <h5><strong>Not Just A Billing Platform!</strong></h5>
                     <p>
-                        WHMCS Module Shop specialise in developing modules which enhance the ability for WHMCS to be used as a "website" and not just a billing/automation platform.<br/>
-                        We have some highly successful modules which add features such as SEO, Page generation, Social interaction and much more.
+                        WHMCS Module Shop specialise in developing modules which enhance the ability for WHMCS to function as a website, not just a billing/automation platform.<br/>
+                        We build highly successful modules with features such as SEO, CMS, Forums, Enhanced Support Features, Backup Utilities, and much more.
                     </p>
                     <div class="socials">
                         <a href="https://www.facebook.com/whmcsmoduleshop" target="_blank" class="facebook" data-toggle="tooltip" title="Follow Us on Facebook">
@@ -31,7 +32,7 @@
                             <span class="fab fa-youtube"></span>
                         </a>
                     </div>
-                    <p>UK Registered Company <strong>#7077994</strong>.</p>
+                    <p>UK Registered Company <strong>#07077994</strong>.</p>
                     <p>VAT Number <strong>GB 985 4678 52</strong>.</p>
                     <p>Copyright © {$date_year} <a href="{$systemsslurl}">{$companyname}</a>. All Rights Reserved.</p>
                 </div>
