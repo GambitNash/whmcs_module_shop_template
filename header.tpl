@@ -213,6 +213,20 @@
             </div>
         </div>
     </div>
+{else}
+    <div id="page-banner">
+        <section id="home-banner">
+            <div class="container">
+                <h1>{$displayTitle}</h1>
+                {if $tagline}<h4>{$tagline}</h4>{/if}
+            </div>
+        </section>
+        <div class="breadcrumbs-wrapper">
+            <div class="container">
+                {include file="$template/includes/breadcrumb.tpl"}
+            </div>
+        </div>
+    </div>
 {/if}
 
 {include file="$template/includes/verifyemail.tpl"}
@@ -222,17 +236,9 @@
         <div class="row">
 
         {if !$inShoppingCart && ($primarySidebar->hasChildren() || $secondarySidebar->hasChildren())}
-            {if $primarySidebar->hasChildren() && !$skipMainBodyContainer}
-                <div class="col-md-9 pull-md-right">
-                    {include file="$template/includes/pageheader.tpl" title=$displayTitle desc=$tagline showbreadcrumb=true}
-                </div>
-            {/if}
             <div class="col-md-3 pull-md-left sidebar">
                 {include file="$template/includes/sidebar.tpl" sidebar=$primarySidebar}
             </div>
         {/if}
         <!-- Container for main page display content -->
         <div class="{if !$inShoppingCart && ($primarySidebar->hasChildren() || $secondarySidebar->hasChildren())}col-md-9 pull-md-right{else}col-xs-12{/if} main-content">
-            {if !$primarySidebar->hasChildren() && !$showingLoginPage && !$inShoppingCart && $templatefile != 'homepage' && !$skipMainBodyContainer}
-                {include file="$template/includes/pageheader.tpl" title=$displayTitle desc=$tagline showbreadcrumb=true}
-            {/if}
