@@ -114,6 +114,30 @@ ul.top-nav>li.primary-action>a.btn {
 	background-color: var(--menu-hover-color);
 }
 
+.email-verification {
+	color: #f0ad4e;
+	background-color: #fcf8e3;
+	border-color: #f0ad4e;
+}
+
+.email-verification.success {
+	border-top: 1px solid #5cb85c;
+	border-bottom: 1px solid #5cb85c;
+}
+
+.email-verification .far,
+.email-verification .fas {
+	color: #f0ad4e;
+}
+
+.email-verification .btn,
+.email-verification .btn:active,
+.email-verification .btn[disabled]:hover {
+	color: #fff;
+	background-color: #f0ad4e;
+	border-color: #eea236;
+}
+
 /**
  * Page Banner
  */
