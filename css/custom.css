@@ -246,7 +246,7 @@ section#footer a.youtube {
 
 
 .back-to-top {
-	position: absolute;
+	position: fixed;
 	bottom: var(--unit);
 	right: var(--unit);
 	opacity: .5;
