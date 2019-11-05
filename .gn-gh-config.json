@@ -1,0 +1,15 @@
+{
+	"email": {
+		"from": "github-hook@dev.whmcsmoduleshop.com",
+		"to": "webmaster@gambitnash.co.uk"
+	},
+	"endpoints": [
+		{
+			"repo": "GambitNash/whmcs_module_shop_template",
+			"branch": "develop",
+			"action": "WHMCS Module Shop Site Template (develop) updated via Webhooks",
+			"run": "git fetch --all --prune && git pull",
+			"reset_opcache": true
+		}
+	]
+}
