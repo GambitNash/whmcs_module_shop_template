@@ -241,6 +241,10 @@ ul.top-nav>li.primary-action>a.btn {
 	padding: 20px 0 !important;
 }
 
+#order-premium_comparison .price-table-container .order-button:hover {
+	background: var(--primary-color) !important;
+}
+
 #order-premium_comparison .price-table-container .price-table ul {
 	border: 1px solid var(--grey) !important;
 	padding: 0 !important;
