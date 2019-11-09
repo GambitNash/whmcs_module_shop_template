@@ -121,13 +121,5 @@
 
 {$footeroutput}
 
-<!-- Mailchimp Popup -->
-<script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
-<script type="text/javascript">
-    {literal}
-    window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us10.list-manage.com","uuid":"4542bd171e0fd3e8484161edd","lid":"04e784b11b","uniqueMethods":true}) })
-    {/literal}
-</script>
-
 </body>
 </html>
