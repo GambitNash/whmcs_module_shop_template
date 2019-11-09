@@ -122,6 +122,10 @@ ul.top-nav>li.primary-action>a.btn {
 	background-color: var(--menu-hover-color);
 }
 
+.navbar-main .badge {
+	background: var(--primary-color);
+}
+
 .navbar-main li.account {
 	background-color: var(--menu-bg-color);
 }
