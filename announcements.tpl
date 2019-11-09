@@ -19,7 +19,7 @@
             {$announcement.title}
         </a>
 
-        {if $announcement.text|strip_tags|strlen < 350}
+        {if $announcement.text|strip_tags|strlen < 350 || 1 === 1}
             <p>{$announcement.text}</p>
         {else}
             <p>{$announcement.summary}
