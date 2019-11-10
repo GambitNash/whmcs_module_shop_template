@@ -308,6 +308,7 @@ ul.top-nav>li.primary-action>a.btn {
 	background-image: url('../img/bg.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-position-y: center;
 }
 .banner {
 	margin: 0;
