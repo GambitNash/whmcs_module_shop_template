@@ -190,6 +190,7 @@ ul.top-nav>li.primary-action>a.btn {
 }
 #whmcs_module_shop_cart .products-wrapper {
 	display: table;
+	width: 100%;
 }
 #whmcs_module_shop_cart #products {
 	display: table-cell;
