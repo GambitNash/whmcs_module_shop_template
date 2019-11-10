@@ -135,6 +135,16 @@ ul.top-nav>li.primary-action>a.btn {
 	background-color: var(--menu-bg-color);
 }
 
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form,
+.nav .nav-divider {
+	border-color: var(--dark-grey);
+}
+
+.nav .nav-divider {
+	background-color: var(--dark-grey);
+}
+
 .email-verification {
 	color: #f0ad4e;
 	background-color: #fcf8e3;
