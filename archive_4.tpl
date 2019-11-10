@@ -2,7 +2,7 @@
     {foreach from=$items item=content}
         <article class="cms-content {if $content@iteration is even by 1}bg break-out {/if}banner" id="cms-content-{$content.id}">
             <div class="container">
-                <div class="col-xs-8 {if $content@iteration is odd by 1}pull-right{/if}">
+                <div class="col-xs-9 {if $content@iteration is odd by 1}pull-right{/if}">
                     <h1>{$content.title}</h1>
                     <h4>{include file="string:{$content.tag_line}"}</h4>
                     <div class="content">
@@ -10,8 +10,8 @@
                         <p class="action"><a class="btn btn-lg btn-primary" href="{$systemurl}{$type.path}/{$content.path}" title="{$content.title}">View Module</a></p>
                     </div>
                 </div>
-                <div class="col-xs-4">
-                    <img src="{if $content@iteration is odd by 1}{$content.meta.logo_inverted}{else}{$content.meta.logo}{/if}"/>
+                <div class="col-xs-3">
+                    <img src="{if $content@iteration is odd by 1}{$content.meta.logo_inverted}{else}{$content.meta.logo}{/if}" style="margin-top: 30px;"/>
                 </div>
             </div>
         </article>
