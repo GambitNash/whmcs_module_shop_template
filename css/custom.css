@@ -346,6 +346,16 @@ ul.top-nav>li.primary-action>a.btn {
 	margin-bottom: 30px;
 }
 
+@media (max-width: 767px) {
+	.home-shortcuts li,
+	.home-shortcuts li:hover {
+		border-bottom: 1px solid #333;
+		float: left !important;
+		width: 50% !important;
+		margin: 10px 0;
+	}
+}
+
 /**
  * Modules
  */

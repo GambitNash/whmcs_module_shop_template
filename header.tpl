@@ -175,37 +175,35 @@
                 </div>
                 <div class="col-sm-12 col-md-8">
                     <ul>
-                        {if $registerdomainenabled || $transferdomainenabled}
-                            <li>
-                                <a id="btnBuyADomain" href="domainchecker.php">
-                                    <i class="fas fa-globe"></i>
-                                    <p>
-                                        {$LANG.buyadomain} <span>&raquo;</span>
-                                    </p>
-                                </a>
-                            </li>
-                        {/if}
                         <li>
                             <a id="btnOrderHosting" href="cart.php">
-                                <i class="far fa-hdd"></i>
+                                <i class="far fa-donate"></i>
                                 <p>
-                                    Order Modules <span>&raquo;</span>
+                                    Join The Module Club
                                 </p>
                             </a>
                         </li>
                         <li>
-                            <a id="btnMakePayment" href="clientarea.php">
-                                <i class="fas fa-credit-card"></i>
+                            <a id="btnMakePayment" href="whmcs-modules">
+                                <i class="fas fa-cubes"></i>
                                 <p>
-                                    {$LANG.makepayment} <span>&raquo;</span>
+                                    View Modules
                                 </p>
                             </a>
                         </li>
                         <li>
-                            <a id="btnGetSupport" href="submitticket.php">
+                            <a id="btnBuyADomain" href="blog">
+                                <i class="fas fa-newspaper"></i>
+                                <p>
+                                    Read Our blog
+                                </p>
+                            </a>
+                        </li>
+                        <li>
+                            <a id="btnGetSupport" href="contact.php">
                                 <i class="far fa-envelope"></i>
                                 <p>
-                                    {$LANG.getsupport} <span>&raquo;</span>
+                                    Contact Us
                                 </p>
                             </a>
                         </li>
