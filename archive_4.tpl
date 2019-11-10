@@ -11,7 +11,7 @@
                     </div>
                 </div>
                 <div class="col-xs-4">
-                    <img src="{$systemsslurl}/uploads/modules/{if $content@iteration is odd by 1}{$content.meta.logo_inverted}{else}{$content.meta.logo}{/if}"/>
+                    <img src="{$systemsslurl}/{if $content@iteration is odd by 1}{$content.meta.logo_inverted}{else}{$content.meta.logo}{/if}"/>
                 </div>
             </div>
         </article>
