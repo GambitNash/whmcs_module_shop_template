@@ -2,17 +2,31 @@
     {foreach from=$items item=content}
         <article class="cms-content {if $content@iteration is even by 1}bg break-out {/if}banner" id="cms-content-{$content.id}">
             <div class="container">
-                <div class="col-xs-9 {if $content@iteration is odd by 1}pull-right{/if}">
-                    <h1>{$content.title}</h1>
-                    <h4>{include file="string:{$content.tag_line}"}</h4>
-                    <div class="content">
-                        {include file="string:{$content.meta.summary}"}
-                        <p class="action"><a class="btn btn-lg btn-primary" href="{$systemurl}{$type.path}/{$content.path}" title="{$content.title}">View Module</a></p>
+                {if $content@iteration is even by 1}
+                    <div class="col-sm-8">
+                        <h1>{$content.title}</h1>
+                        <h4>{include file="string:{$content.tag_line}"}</h4>
+                        <div class="content">
+                            {include file="string:{$content.meta.summary}"}
+                            <p class="action"><a class="btn btn-lg btn-primary" href="{$systemurl}{$type.path}/{$content.path}" title="{$content.title}">View Module</a></p>
+                        </div>
                     </div>
-                </div>
-                <div class="col-xs-3">
-                    <img src="{if $content@iteration is odd by 1}{$content.meta.logo_inverted}{else}{$content.meta.logo}{/if}" style="margin-top: 30px;"/>
-                </div>
+                    <div class="module-image col-sm-4 text-center hidden-xs">
+                        <img src="{$content.meta.logo}"/>
+                    </div>
+                {else}
+                    <div class="module-image col-sm-4 text-center hidden-xs">
+                        <img src="{$content.meta.logo_inverted}"/>
+                    </div>
+                    <div class="col-sm-8">
+                        <h1>{$content.title}</h1>
+                        <h4>{include file="string:{$content.tag_line}"}</h4>
+                        <div class="content">
+                            {include file="string:{$content.meta.summary}"}
+                            <p class="action"><a class="btn btn-lg btn-primary" href="{$systemurl}{$type.path}/{$content.path}" title="{$content.title}">View Module</a></p>
+                        </div>
+                    </div>
+                {/if}
             </div>
         </article>
     {foreachelse}

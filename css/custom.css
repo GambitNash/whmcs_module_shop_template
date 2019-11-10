@@ -373,6 +373,24 @@ ul.top-nav>li.primary-action>a.btn {
 	background: rgba(0, 0, 0, 0.25);
 }
 
+@media (min-width: 768px) {
+	.cms-type-4.cms-archive .cms-content img {
+		margin-top: 70px;
+	}
+}
+
+@media (min-width: 992px) {
+	.cms-type-4.cms-archive .cms-content img {
+		margin-top: 30px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.cms-type-4.cms-archive .cms-content img {
+		margin-top: 0px;
+	}
+}
+
 .cms-type-4.cms-archive .cms-content h4 {
 	margin-bottom: 40px;
 }
