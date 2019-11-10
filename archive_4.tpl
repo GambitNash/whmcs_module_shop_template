@@ -7,7 +7,9 @@
                         <h1>{$content.title}</h1>
                         <h4>{include file="string:{$content.tag_line}"}</h4>
                         <div class="content">
-                            {include file="string:{$content.meta.summary}"}
+                            <div class="hidden-xs">
+                                {include file="string:{$content.meta.summary}"}
+                            </div>
                             <p class="action"><a class="btn btn-lg btn-primary" href="{$systemurl}{$type.path}/{$content.path}" title="{$content.title}">View Module</a></p>
                         </div>
                     </div>
@@ -22,7 +24,9 @@
                         <h1>{$content.title}</h1>
                         <h4>{include file="string:{$content.tag_line}"}</h4>
                         <div class="content">
-                            {include file="string:{$content.meta.summary}"}
+                            <div class="hidden-xs">
+                                {include file="string:{$content.meta.summary}"}
+                            </div>
                             <p class="action"><a class="btn btn-lg btn-primary" href="{$systemurl}{$type.path}/{$content.path}" title="{$content.title}">View Module</a></p>
                         </div>
                     </div>
