@@ -188,7 +188,7 @@ ul.top-nav>li.primary-action>a.btn {
 	font-size: 32px;
 	line-height: 38px;
 }
-#whmcs_module_shop_cart #products-wrapper {
+#whmcs_module_shop_cart .products-wrapper {
 	display: table;
 }
 #whmcs_module_shop_cart #products {
