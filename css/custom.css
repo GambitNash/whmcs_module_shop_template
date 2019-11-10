@@ -136,13 +136,14 @@ ul.top-nav>li.primary-action>a.btn {
 }
 
 .navbar-default .navbar-collapse,
-.navbar-default .navbar-form,
-.nav .nav-divider {
+.navbar-default .navbar-form {
 	border-color: var(--dark-grey);
 }
 
-.nav .nav-divider {
-	background-color: var(--dark-grey);
+@media (max-width: 768px) {
+	.nav .nav-divider {
+		background-color: var(--dark-grey);
+	}
 }
 
 .email-verification {
