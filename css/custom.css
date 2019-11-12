@@ -177,6 +177,18 @@ ul.top-nav>li.primary-action>a.btn {
 }
 
 /**
+ * Main Content
+ */
+section#main-body {
+	padding-bottom: 0;
+}
+.main-content,
+section#main-content {
+	margin-bottom: 0;
+	padding-bottom: 20px;
+}
+
+/**
  * Page Banner
  */
 #page-banner .breadcrumbs-wrapper {
@@ -190,6 +202,9 @@ ul.top-nav>li.primary-action>a.btn {
 /**
  * Cart
  */
+#whmcs_module_shop_cart {
+	padding: 20px 0 40px 0;
+}
 #whmcs_module_shop_cart #headline {
 	font-size: 32px;
 	line-height: 38px;
@@ -339,7 +354,7 @@ ul.top-nav>li.primary-action>a.btn {
  */
 .cms-type-4 {
 	margin-top: -20px;
-	margin-bottom: -80px;
+	margin-bottom: -21px;
 }
 
 .cms-type-4 .banner {
