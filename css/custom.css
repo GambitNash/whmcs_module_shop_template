@@ -365,6 +365,23 @@ section#main-content {
 	color: #fff;
 }
 
+@media (max-width: 768px) {
+	.cms-type-4.cms-single .banner {
+		padding-bottom: 120px;
+	}
+	.cms-type-4.cms-single .banner:first-child {
+		padding-bottom: 160px;
+	}
+	.cms-type-4.cms-single .cms-content img {
+		max-width: 240px;
+		margin-top: -170px;
+	}
+	.cms-type-4.cms-archive .cms-content img {
+		background: #fff;
+		border-radius: 180px;
+	}
+}
+
 @media (min-width: 768px) {
 	.cms-type-4 .cms-content img {
 		margin-top: 70px;
