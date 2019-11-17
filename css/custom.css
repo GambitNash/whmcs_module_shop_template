@@ -375,6 +375,13 @@ section#main-content {
 }
 
 /**
+ * Client Area
+ */
+.dataTables_wrapper .dataTables_info {
+	background: var(--dark-grey);
+}
+
+/**
  * Banners
  */
 .bg {
