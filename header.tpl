@@ -162,56 +162,13 @@
             {else}
                 <h1>Not Just A Billing Platform!</h1>
                 <h4>We build highly successful modules with features such as SEO,<br/>CMS, Forums, Enhanced Support Features, Backup Utilities, and much more.</h4>
+                <p>
+                    <a class="btn btn-lg btn-dark" href="/whmcs-modules" title="View Modules">View Modules</a>
+                    <a class="btn btn-lg btn-primary" href="#main-body" title="View Pricing">View Pricing</a>
+                </p>
             {/if}
         </div>
     </section>
-    <div class="home-shortcuts">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4 hidden-sm hidden-xs text-center">
-                    <p class="lead">
-                        {$LANG.howcanwehelp}
-                    </p>
-                </div>
-                <div class="col-sm-12 col-md-8">
-                    <ul>
-                        <li>
-                            <a id="btnOrderHosting" href="cart.php">
-                                <i class="far fa-donate"></i>
-                                <p>
-                                    Join The Module Club
-                                </p>
-                            </a>
-                        </li>
-                        <li>
-                            <a id="btnMakePayment" href="whmcs-modules">
-                                <i class="fas fa-cubes"></i>
-                                <p>
-                                    View Modules
-                                </p>
-                            </a>
-                        </li>
-                        <li>
-                            <a id="btnBuyADomain" href="blog">
-                                <i class="fas fa-newspaper"></i>
-                                <p>
-                                    Read Our blog
-                                </p>
-                            </a>
-                        </li>
-                        <li>
-                            <a id="btnGetSupport" href="contact.php">
-                                <i class="far fa-envelope"></i>
-                                <p>
-                                    Contact Us
-                                </p>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
 {else}
     <div id="page-banner">
         <section class="bg banner">

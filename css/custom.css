@@ -323,20 +323,12 @@ section#main-content {
 /**
  * Homepage
  */
-.home-shortcuts {
-	background-color: var(--menu-bg-color);
+section#home-banner {
+	background-color: var(--light-grey);
 }
-.home-shortcuts li:first-child {
-	border-left: 1px solid var(--menu-bg-color);
-}
-.home-shortcuts li {
-	border-right: 1px solid var(--menu-bg-color);
-}
-.home-shortcuts li:hover a {
-	color: var(--light-grey);
-}
-.home-shortcuts li:hover span {
-	display: none;
+
+section#home-banner h4 {
+	margin-bottom: 50px;
 }
 
 #homepage-content h1,
