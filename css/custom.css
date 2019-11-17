@@ -62,6 +62,12 @@ img {
 	color: #fff;
 }
 
+.btn-dark:hover {
+	background-color: var(--primary-color);
+	border-color: var(--primary-color);
+	color: #fff;
+}
+
 .form-control,
 #registration .field,
 #registration .form-control {
