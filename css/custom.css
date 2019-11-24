@@ -508,6 +508,62 @@ section#home-banner h4 {
 	background: rgba(255, 255, 255, 0.10);
 }
 
+@media (max-width: 767px) {
+	#screenshots {
+		margin-top: -140px;
+	}
+	#screenshots #screenshot-carousel .item img {
+		max-width: 100%;
+	}
+	#screenshots .carousel-indicators,
+	#screenshots .carousel-caption {
+		display: none;
+	}
+}
+@media (max-width: 1199px) {
+	#screenshots {
+		width: 100vw;
+		position: relative;
+		left: calc(-1 * (100vw - 100%) / 2);
+	}
+	#screenshots #screenshot-bg {
+		display: none;
+	}
+	#screenshots #screenshot-carousel .item img {
+		margin: 0 auto;
+		width: 100%;
+		height: auto;
+	}
+}
+@media (min-width: 1200px) {
+	#screenshots {
+		height: 640px;
+		overflow: hidden;
+		position: relative;
+	}
+
+	#screenshots #screenshot-bg {
+		display: block;
+		position: absolute;
+		top: 0;
+		margin: 0 auto;
+	}
+
+	#screenshots #screenshot-carousel {
+		margin: 49px auto 0 auto;
+		width: 1060px;
+		height: 591px;
+	}
+
+	#screenshots .carousel-caption h3 {
+		margin: 10px 0 0 0;
+	}
+
+	#screenshots .carousel-caption p {
+		margin-bottom: 20px;
+	}
+}
+
 /**
  * Registration
  */
