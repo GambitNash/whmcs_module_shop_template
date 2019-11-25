@@ -14,11 +14,11 @@
                         </div>
                     </div>
                     <div class="module-image col-sm-4 text-center hidden-xs">
-                        <img src="{$content.meta.logo}"/>
+                        <img src="{$content.meta.logo}" alt="{$content.title} - {include file="string:{$content.tag_line}"}"/>
                     </div>
                 {else}
                     <div class="module-image col-sm-4 text-center hidden-xs">
-                        <img src="{$content.meta.logo_inverted}"/>
+                        <img src="{$content.meta.logo_inverted}" alt="{$content.title} - {include file="string:{$content.tag_line}"}"/>
                     </div>
                     <div class="col-sm-8">
                         <h1>{$content.title}</h1>
